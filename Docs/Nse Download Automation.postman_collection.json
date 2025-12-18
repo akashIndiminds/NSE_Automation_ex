@@ -1,0 +1,335 @@
+{
+	"info": {
+		"_postman_id": "5158a019-8bd8-4328-b18b-cf6f4fadb177",
+		"name": "Nse Download Automation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41750517"
+	},
+	"item": [
+		{
+			"name": "single file download",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/download/file",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"download",
+						"file"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"loginId\" :\"extApiUser5\",\"password\" : \"Password@7890\",\"secretKey\" : \"uro1elgXN9p5r9AaEjOOFn8uChjNCmEEmizEfiTJkBM=\",\"memberCode\": \"07765\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/login/auth",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"login",
+						"auth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"loginId\" :\"binay\",\"password\" : \"123@Naka#45678\",\"secretKey\" : \"1z2qd07L2j139PWoZ85coeYM74qksgDuueRLabRtywc=\",\"memberCode\": \"08565\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/login/auth",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"login",
+						"auth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "buildTask",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/automate/buildTask?startDate=2025-02-10&endDate=2025-02-10",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"automate",
+						"buildTask"
+					],
+					"query": [
+						{
+							"key": "startDate",
+							"value": "2025-02-10"
+						},
+						{
+							"key": "endDate",
+							"value": "2025-02-10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "start Bulk download",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/download/syncfiles?startDate=2025-1-1&endDate=2025-1-1&Token=eyJhbGciOiJSUzI1NiJ9.eyJtZW1iZXJDZCI6IjA3NzY1Iiwic3ViIjoiMDc3NjUiLCJsb2dpbklkIjoiZXh0QXBpVXNlcjUiLCJpc3MiOiJleHRBcGlVc2VyNSIsImV4cCI6MTczNzM3NjkyOSwiaWF0IjoxNzM3MzczMzI5LCJqdGkiOiI4NjU3OTUzOC1jNTYyLTQ4ZjgtOTk4Zi05M2MzNjc1MmJhODgifQ.Puc86JJHRPLZ3Hgc3UmmZT_JM82YmKIXGxP67EHOHFU_Bl7iHEi96MmGL-AIXIoafXUrLzKdxGEcgOZA8v29wg",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"download",
+						"syncfiles"
+					],
+					"query": [
+						{
+							"key": "startDate",
+							"value": "2025-1-1"
+						},
+						{
+							"key": "endDate",
+							"value": "2025-1-1"
+						},
+						{
+							"key": "Token",
+							"value": "eyJhbGciOiJSUzI1NiJ9.eyJtZW1iZXJDZCI6IjA3NzY1Iiwic3ViIjoiMDc3NjUiLCJsb2dpbklkIjoiZXh0QXBpVXNlcjUiLCJpc3MiOiJleHRBcGlVc2VyNSIsImV4cCI6MTczNzM3NjkyOSwiaWF0IjoxNzM3MzczMzI5LCJqdGkiOiI4NjU3OTUzOC1jNTYyLTQ4ZjgtOTk4Zi05M2MzNjc1MmJhODgifQ.Puc86JJHRPLZ3Hgc3UmmZT_JM82YmKIXGxP67EHOHFU_Bl7iHEi96MmGL-AIXIoafXUrLzKdxGEcgOZA8v29wg"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "generate file names within date range",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/download/listBuild?startDate=2024-12-1&endDate=2024-12-1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"download",
+						"listBuild"
+					],
+					"query": [
+						{
+							"key": "startDate",
+							"value": "2024-12-1"
+						},
+						{
+							"key": "endDate",
+							"value": "2024-12-1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "status update",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/automate/status",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"automate",
+						"status"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteTask",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/automate/deleteTask",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"automate",
+						"deleteTask"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "startImport",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/automate/ImportFiles",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"automate",
+						"ImportFiles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "uploadTask",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n      \"dir\": \"common\",\r\n      \"segment\": \"CM\",\r\n      \"folderPath\": \"/bhavcopy/\",\r\n      \"filename\": \"BhavCopy_NSE_CM_0_0_0_20250129_F_0000.csv.zip\",\r\n      \"filepath\": \"D:\\\\AutoDocs\\\\common\\\\CM\\\\bhavcopy\\\\BhavCopy_NSE_CM_0_0_0_20250129_F_0000.csv\",\r\n      \"spName\": \"UDIFF_CMBhavcopy\",\r\n      \"spParam\": \"Module-ExchangeSegmentID\",\r\n      \"spParamValue\": \"InsUpdate_Trans_DailyStatistics-1\"\r\n    },\r\n    {\r\n      \"dir\": \"common\",\r\n      \"segment\": \"CM\",\r\n      \"folderPath\": \"/clearing/\",\r\n      \"filename\": \"C_SEC_29012025_NSE.csv\",\r\n      \"filepath\": \"D:\\\\AutoDocs\\\\common\\\\CM\\\\clearing\\\\C_SEC_29012025_NSE.csv\",\r\n      \"spName\": \"Import_NSE_Scrips\",\r\n      \"spParam\": \"Module-ModifyUser\",\r\n      \"spParamValue\": \"nSEsCRIPS-416\"\r\n    },\r\n    {\r\n      \"dir\": \"common\",\r\n      \"segment\": \"CM\",\r\n      \"folderPath\": \"/clearing/\",\r\n      \"filename\": \"NCL_APPLICABLE_SYMBOL_29012025.csv\",\r\n      \"filepath\": \"D:\\\\AutoDocs\\\\common\\\\CM\\\\clearing\\\\NCL_APPLICABLE_SYMBOL_29012025.csv\",\r\n      \"spName\": \"Update_NCL_Scrips\",\r\n      \"spParam\": \"Module-ModifyUser\",\r\n      \"spParamValue\": \"NCL_Scrips-416\"\r\n    },\r\n    {\r\n      \"dir\": \"common\",\r\n      \"segment\": \"CM\",\r\n      \"folderPath\": \"/clearing/\",\r\n      \"filename\": \"BSE_Scrip_Series_Mapping_29012025.csv\",\r\n      \"filepath\": \"D:\\\\AutoDocs\\\\common\\\\CM\\\\clearing\\\\BSE_Scrip_Series_Mapping_29012025.csv\",\r\n      \"spName\": \"Update_NSECL_ScripCodes\",\r\n      \"spParam\": \"Module-ModifyUser\",\r\n      \"spParamValue\": \"NSECLCodes-416\"\r\n    },\r\n    {\r\n      \"dir\": \"common\",\r\n      \"segment\": \"CM\",\r\n      \"folderPath\": \"/clearing/\",\r\n      \"filename\": \"SettlementMaster_NCL_CM_0_0_0_20250100_0_0000.csv.gz\",\r\n      \"filepath\": \"D:\\\\AutoDocs\\\\common\\\\CM\\\\clearing\\\\SettlementMaster_NCL_CM_0_0_0_20250100_0_0000.csv\",\r\n      \"spName\": \"SP_INSUP_CSTC1\",\r\n      \"spParam\": \"Type_N-Type_W-Type_A-Type_Q-Type_B-Type_L-Type_X-Type_D-Type_O-Type_Z-Type_U-Type_P\",\r\n      \"spParamValue\": \"N-W-A-QQ-XX-LL-DD-PP-UU-ZZ-BB-OO\"\r\n    },\r\n    {\r\n      \"dir\": \"member\",\r\n      \"segment\": \"CM\",\r\n      \"folderPath\": \"/Reports/\",\r\n      \"filename\": \"STT_NCL_CM_0_CM_07765_20250129_F_0000.csv.gz\",\r\n      \"filepath\": \"D:\\\\AutoDocs\\\\member\\\\CM\\\\Reports\\\\STT_NCL_CM_0_CM_07765_20250129_F_0000.csv\",\r\n      \"spName\": \"Import_NSECM_MWST\",\r\n      \"spParam\": \"COMPANY_ID-SegmentID-ModifyUser\",\r\n      \"spParamValue\": \"COR0000002-24-416\"\r\n    },\r\n    {\r\n      \"dir\": \"member\",\r\n      \"segment\": \"CM\",\r\n      \"folderPath\": \"/Reports/\",\r\n      \"filename\": \"C_MG13_07765_29012025.lis.gz\",\r\n      \"filepath\": \"D:\\\\AutoDocs\\\\member\\\\CM\\\\Reports\\\\C_MG13_07765_29012025.lis\",\r\n      \"spName\": \"Import_NSECM_MG02\",\r\n      \"spParam\": \"COMPANY_ID-SegmentID-ModifyUser\",\r\n      \"spParamValue\": \"COR0000002-24-416\"\r\n    },\r\n    {\r\n      \"dir\": \"member\",\r\n      \"segment\": \"CM\",\r\n      \"folderPath\": \"/Reports/\",\r\n      \"filename\": \"C_MG01_07765_29012025.lis\",\r\n      \"filepath\": \"D:\\\\AutoDocs\\\\member\\\\CM\\\\Reports\\\\C_MG01_07765_29012025.lis\",\r\n      \"spName\": \"Import_NSCCL_MarginReport\",\r\n      \"spParam\": \"COMPANY_ID-SegmentId-ModifyUser\",\r\n      \"spParamValue\": \"COR0000002-24-416\"\r\n    },\r\n    {\r\n      \"dir\": \"member\",\r\n      \"segment\": \"CM\",\r\n      \"folderPath\": \"/Reports/\",\r\n      \"filename\": \"COLLDTLS_07765_20250129_01.CSV.gz\",\r\n      \"filepath\": \"D:\\\\AutoDocs\\\\member\\\\CM\\\\Reports\\\\COLLDTLS_07765_20250129_01.CSV\",\r\n      \"spName\": \"Import_NSCCL_MemberCapital\",\r\n      \"spParam\": \"COMPANY_ID-SegmentId-ModifyUser\",\r\n      \"spParamValue\": \"COR0000002-24-416\"\r\n    },\r\n    {\r\n      \"dir\": \"member\",\r\n      \"segment\": \"CM\",\r\n      \"folderPath\": \"/Reports/\",\r\n      \"filename\": \"C_CC02_07765_29012025.csv.gz\",\r\n      \"filepath\": \"D:\\\\AutoDocs\\\\member\\\\CM\\\\Reports\\\\C_CC02_07765_29012025.csv\",\r\n      \"spName\": \"Import_NSE_CC02\",\r\n      \"spParam\": \"COMPANY_ID-SegmentID-ModifyUser\",\r\n      \"spParamValue\": \"COR0000002-24-416\"\r\n    },\r\n    {\r\n      \"dir\": \"member\",\r\n      \"segment\": \"CM\",\r\n      \"folderPath\": \"/Reports/\",\r\n      \"filename\": \"StampDuty_NCL_CM_0_CM_07765_20250129_F_0000.csv.gz\",\r\n      \"filepath\": \"D:\\\\AutoDocs\\\\member\\\\CM\\\\Reports\\\\StampDuty_NCL_CM_0_CM_07765_20250129_F_0000.csv\",\r\n      \"spName\": \"Import_NSECM_SD0n\",\r\n      \"spParam\": \"COMPANY_ID-SegmentID-ModifyUser\",\r\n      \"spParamValue\": \"COR0000002-24-416\"\r\n    },\r\n    {\r\n      \"dir\": \"member\",\r\n      \"segment\": \"CM\",\r\n      \"folderPath\": \"/CEP/Dnld\",\r\n      \"filename\": \"07765_CEP20250129.D19\",\r\n      \"filepath\": \"D:\\\\AutoDocs\\\\member\\\\CM\\\\CEP\\\\Dnld\\\\07765_CEP20250129.D19\",\r\n      \"spName\": \"Import_NSECM_EPI\",\r\n      \"spParam\": \"COMPANY_ID-SegmentID-ModifyUser\",\r\n      \"spParamValue\": \"COR0000002-24-416\"\r\n    }\r\n  ]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/automate/UploadTask",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"automate",
+						"UploadTask"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "startDownload",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:3000/api/automate/DownloadFiles",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"automate",
+						"DownloadFiles"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

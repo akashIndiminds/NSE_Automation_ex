@@ -1,0 +1,122 @@
+[
+    {
+      "dir": "common",
+      "segment": "CM",
+      "folderPath": "/bhavcopy/",
+      "filename": "BhavCopy_NSE_CM_0_0_0_20250129_F_0000.csv.zip",
+      "filepath": "D:\\AutoDocs\\common\\CM\\bhavcopy\\BhavCopy_NSE_CM_0_0_0_20250129_F_0000.csv",
+      "spName": "UDIFF_CMBhavcopy",
+      "spParam": "Module-ExchangeSegmentID",
+      "spParamValue": "InsUpdate_Trans_DailyStatistics-1"
+    },
+    {
+      "dir": "common",
+      "segment": "CM",
+      "folderPath": "/clearing/",
+      "filename": "C_SEC_29012025_NSE.csv",
+      "filepath": "D:\\AutoDocs\\common\\CM\\clearing\\C_SEC_29012025_NSE.csv",
+      "spName": "Import_NSE_Scrips",
+      "spParam": "Module-ModifyUser",
+      "spParamValue": "nSEsCRIPS-416"
+    },
+    {
+      "dir": "common",
+      "segment": "CM",
+      "folderPath": "/clearing/",
+      "filename": "NCL_APPLICABLE_SYMBOL_29012025.csv",
+      "filepath": "D:\\AutoDocs\\common\\CM\\clearing\\NCL_APPLICABLE_SYMBOL_29012025.csv",
+      "spName": "Update_NCL_Scrips",
+      "spParam": "Module-ModifyUser",
+      "spParamValue": "NCL_Scrips-416"
+    },
+    {
+      "dir": "common",
+      "segment": "CM",
+      "folderPath": "/clearing/",
+      "filename": "BSE_Scrip_Series_Mapping_29012025.csv",
+      "filepath": "D:\\AutoDocs\\common\\CM\\clearing\\BSE_Scrip_Series_Mapping_29012025.csv",
+      "spName": "Update_NSECL_ScripCodes",
+      "spParam": "Module-ModifyUser",
+      "spParamValue": "NSECLCodes-416"
+    },
+    {
+      "dir": "common",
+      "segment": "CM",
+      "folderPath": "/clearing/",
+      "filename": "SettlementMaster_NCL_CM_0_0_0_20250100_0_0000.csv.gz",
+      "filepath": "D:\\AutoDocs\\common\\CM\\clearing\\SettlementMaster_NCL_CM_0_0_0_20250100_0_0000.csv",
+      "spName": "SP_INSUP_CSTC1",
+      "spParam": "Type_N-Type_W-Type_A-Type_Q-Type_B-Type_L-Type_X-Type_D-Type_O-Type_Z-Type_U-Type_P",
+      "spParamValue": "N-W-A-QQ-XX-LL-DD-PP-UU-ZZ-BB-OO"
+    },
+    {
+      "dir": "member",
+      "segment": "CM",
+      "folderPath": "/Reports/",
+      "filename": "STT_NCL_CM_0_CM_07765_20250129_F_0000.csv.gz",
+      "filepath": "D:\\AutoDocs\\member\\CM\\Reports\\STT_NCL_CM_0_CM_07765_20250129_F_0000.csv",
+      "spName": "Import_NSECM_MWST",
+      "spParam": "COMPANY_ID-SegmentID-ModifyUser",
+      "spParamValue": "COR0000002-24-416"
+    },
+    {
+      "dir": "member",
+      "segment": "CM",
+      "folderPath": "/Reports/",
+      "filename": "C_MG13_07765_29012025.lis.gz",
+      "filepath": "D:\\AutoDocs\\member\\CM\\Reports\\C_MG13_07765_29012025.lis",
+      "spName": "Import_NSECM_MG02",
+      "spParam": "COMPANY_ID-SegmentID-ModifyUser",
+      "spParamValue": "COR0000002-24-416"
+    },
+    {
+      "dir": "member",
+      "segment": "CM",
+      "folderPath": "/Reports/",
+      "filename": "C_MG01_07765_29012025.lis",
+      "filepath": "D:\\AutoDocs\\member\\CM\\Reports\\C_MG01_07765_29012025.lis",
+      "spName": "Import_NSCCL_MarginReport",
+      "spParam": "COMPANY_ID-SegmentId-ModifyUser",
+      "spParamValue": "COR0000002-24-416"
+    },
+    {
+      "dir": "member",
+      "segment": "CM",
+      "folderPath": "/Reports/",
+      "filename": "COLLDTLS_07765_20250129_01.CSV.gz",
+      "filepath": "D:\\AutoDocs\\member\\CM\\Reports\\COLLDTLS_07765_20250129_01.CSV",
+      "spName": "Import_NSCCL_MemberCapital",
+      "spParam": "COMPANY_ID-SegmentId-ModifyUser",
+      "spParamValue": "COR0000002-24-416"
+    },
+    {
+      "dir": "member",
+      "segment": "CM",
+      "folderPath": "/Reports/",
+      "filename": "C_CC02_07765_29012025.csv.gz",
+      "filepath": "D:\\AutoDocs\\member\\CM\\Reports\\C_CC02_07765_29012025.csv",
+      "spName": "Import_NSE_CC02",
+      "spParam": "COMPANY_ID-SegmentID-ModifyUser",
+      "spParamValue": "COR0000002-24-416"
+    },
+    {
+      "dir": "member",
+      "segment": "CM",
+      "folderPath": "/Reports/",
+      "filename": "StampDuty_NCL_CM_0_CM_07765_20250129_F_0000.csv.gz",
+      "filepath": "D:\\AutoDocs\\member\\CM\\Reports\\StampDuty_NCL_CM_0_CM_07765_20250129_F_0000.csv",
+      "spName": "Import_NSECM_SD0n",
+      "spParam": "COMPANY_ID-SegmentID-ModifyUser",
+      "spParamValue": "COR0000002-24-416"
+    },
+    {
+      "dir": "member",
+      "segment": "CM",
+      "folderPath": "/CEP/Dnld",
+      "filename": "07765_CEP20250129.D19",
+      "filepath": "D:\\AutoDocs\\member\\CM\\CEP\\Dnld\\07765_CEP20250129.D19",
+      "spName": "Import_NSECM_EPI",
+      "spParam": "COMPANY_ID-SegmentID-ModifyUser",
+      "spParamValue": "COR0000002-24-416"
+    }
+  ]
